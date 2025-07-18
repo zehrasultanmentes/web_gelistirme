@@ -1,0 +1,30 @@
+<!----------------------------------------------------->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BUTON</title>
+    </head>
+    <body>
+        <a href="https://www.google.com/?hl=tr">
+        <button style="background-color: cadetblue; color: brown; border-radius: 10px;">TIKLA</button>
+        </a><!--butona tıklamak içn hyperlinke çeviriyoruz-->
+    </body>
+</html>
+<!--------------------------------------------------------------->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BUTON</title>
+    </head>
+    <body>
+         <button onclick="tikla()" style="background-color: cadetblue; color: brown; border-radius: 10px;">TIKLA</button>
+        <p id="yazi">butona bas!</p>
+        <script>
+            function tikla()
+            {
+                document.getElementById("yazi").innerHTML="butona bastın güzellik"
+                
+            }
+        </script>
+    </body>
+</html>

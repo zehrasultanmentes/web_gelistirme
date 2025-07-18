@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form yapısı</title>
+    </head>
+    <body>
+        <form action="">
+            <label for="isim">Ad:</label>
+            <input type="text" name="isim" id="isim" placeholder="Zehra">
+            
+            <br><br>
+
+            <label for="soyad">soyad:</label>
+            <input type="text" name="soyad" id="soyad"placeholder="menteş" required    >
+            
+            <br><br>
+            
+            <label for="cins">cinsiyet:</label>
+            <label for="kadın">kadın</label>
+            <input type="radio" name="cinsiyet" id="kadın" value="kadın">
+            <label for="erkek">erkek</label>
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+            
+            <br><br>
+            
+            <label for="dt">doğum tarihi:</label>
+            <input type="date" name="" id="dt">
+            
+            <br><br>
+            
+            <label for="sifre">şifre:</label>
+            <input type="password" name="sifre" id="sifre" maxlength="6">
+            
+            <br><br>
+            
+            <label for="mail">e-mail:</label>
+            <input type="email" name="" id="mail">
+            
+            <br><br>
+            
+            <label for="kd">kardeş sayısı:</label>
+            <input type="number" name="kd" id="kd" max="30" min="0">
+            
+            <br><br>
+
+            <select name="" id="">
+            <option value="yok">YOK</option>
+            <option value="ssk">SSK</option>
+            <option value="bagkur">BAĞKUR</option>
+            <option value="emekli">EMEKLİ sandığı</option>
+            </select>
+            <br><br>
+
+            <label for="">Aktif olarak çalışıyor</label>
+            <input type="checkbox">
+            <br><br>
+            
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+            <br><br>
+
+            <input type="reset">
+            <input type="submit">
+        </form>
+    </body>
+</html>
