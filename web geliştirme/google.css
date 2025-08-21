@@ -1,0 +1,59 @@
+
+article{
+    
+    margin:0px;
+    background-color: azure;
+    
+}
+.button{
+
+    width: 500px;
+    height: 20px;
+    
+
+}
+
+
+.kutular{
+
+    display: flex;
+    gap: 10px;
+    background-color: azure;
+    justify-content:flex-start;
+   
+    height: 150px;
+
+    
+}
+.birinci{
+    background-color: rgb(181, 222, 227);
+    height:130px;
+    width: 800px;
+   
+    margin-top: 10px;
+
+
+
+}
+.ikinci{
+    background-color:rgb(57, 153, 165);
+    height:130px;
+    width: 400px;
+    margin-top:10px;
+    
+
+   
+
+}
+.ucuncu{
+    background-color: rgb(23, 111, 122);
+    height:130px;
+    width: 800px;
+    margin-top :10px;
+    
+
+}
+
+#son{
+   
+}
